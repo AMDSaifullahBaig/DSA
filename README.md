@@ -16,9 +16,15 @@ For every problem, I implement multiple approaches—from the naive Brute Force 
 # 🧩 Problem Index
 | ID | Problem Name | Difficulty | Topic | Solution & Analysis |
 | :-- | :--- | :--- | :--- | :--- |
-| 0001 | Two Sum | 🟢 Easy | Array, Hash Map |[View Solution](./Array_and_Hashmap/0001_Two_Sum/One_Pass_Hash_Map(Best)/One_Pass_Hashmap.py)|
-| 0217 | Contains Duplicate | 🟢 Easy | Array, Hash Map | [View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Hashing(Best).py) |
-| 0242 | Valid Anagram | 🟢 Easy | String, Hash Map | [View Solution](ArrayandHashmaps\Hashing\0242_Valid_Anagram\Hashing(Best).py) |
+
+
+| 0001 | Two Sum | 🟢 Easy | Array, Hash Map |[View Solution](Array_and_Hashmap\Hashing\0001_Two_Sum\One_Pass_Hash_Map(Best)\One_Pass_Hashmap.py)|
+
+
+| 0217 | Contains Duplicate | 🟢 Easy | Array, Hash Map | [View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Hashing(Best)\Hashing.py) |
+
+
+| 0242 | Valid Anagram | 🟢 Easy | String, Hash Map | [View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Hash_Map(Best)\Hash_Map.py) |
 
 ## 📂 Repository Structure
 My solutions are organized by **Topic then Pattern** (e.g., Array, Linked List) rather than just numerical order. This helps in spotting patterns and learning specific data structures deeply.
