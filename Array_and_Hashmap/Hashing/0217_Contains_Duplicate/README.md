@@ -110,7 +110,7 @@ The graph below visually demonstrates the efficiency gap. Notice how the Hash Ma
 
 ```text
 DSA/
-├── Array and Hashmaps/
+├── Array_and_Hashmap/
 │   └── Hashing/
 |           |0001_Two_Sum/
 │           ├── assets/
