@@ -11,11 +11,11 @@
 ## 📂 Quick Access
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
-| **1. Brute Force** | $O(N^2)$ | $O(1)$ | [📄 View Solution](./Brute_Force/Brute_Force.py) |
-| **2. Sorting** | $O(N \log N)$ | $O(1)$ | [📄 View Solution](./Sorting/Sorting.py) |
-| **3. Hash Set** | $O(N)$ | $O(N)$ | [📄 View Solution](./Hashing(Best)/Hashing.py) |
-| **4. Length Comparison**| $O(N)$ | $O(N)$ | [📄 View Solution](./Hash_Length_Comparision/Hash_Length_Comparision.py) |
-| **5. Freq Counter** | $O(N)$ | $O(N)$ | [📄 View Solution](./Frequency_Counter/Frequency_Counter.py) |
+| **1. Brute Force** | $O(N^2)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Brute_Force) |
+| **2. Sorting** | $O(N \log N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Sorting) |
+| **3. Hash Set** | $O(N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Hashing(Best)) |
+| **4. Length Comparison**| $O(N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Hash_Length_Comparision(Pythonic_Best)) |
+| **5. Freq Counter** | $O(N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Frequency_Counter) |
 
 ---
 

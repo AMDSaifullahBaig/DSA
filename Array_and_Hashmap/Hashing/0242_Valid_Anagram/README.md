@@ -11,10 +11,10 @@
 ## 📂 Quick Access
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
-| **1. Sorting (Brute Force)** | $O(N \log N)$ | $O(N)$ | [📄 View Solution](./Brute_Force/Brute_Force.py) |
-| **2. Hash Map** | $O(N)$ | $O(1)$ | [📄 View Solution](./Hash_Map(Best)/Hash_Map.py) |
-| **3. Fixed Size Array** | $O(N)$ | $O(1)$ | [📄 View Solution](./Fixed_Size_Array/Fixed_Size_Array.py) |
-| **4. Pythonic Counter**| $O(N)$ | $O(1)$ | [📄 View Solution](./Frequency_Counter(Pythonic_Best)/Frequency_Counter.py) |
+| **1. Sorting (Brute Force)** | $O(N \log N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Brute_Force) |
+| **2. Hash Map** | $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Hash_Map(Best)) |
+| **3. Fixed Size Array** | $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Fixed_Sized_Array) |
+| **4. Pythonic Counter**| $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Frequency_Counter(Pythonic_Best)) |
 
 ---
 
