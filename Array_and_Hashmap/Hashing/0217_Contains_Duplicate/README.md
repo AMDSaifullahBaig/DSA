@@ -14,7 +14,7 @@
 | **1. Brute Force** | $O(N^2)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Brute_Force) |
 | **2. Sorting** | $O(N \log N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Sorting) |
 | **3. Hash Set** | $O(N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Hashing(Best)) |
-| **4. Length Comparison**| $O(N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Hash_Length_Comparision(Pythonic_Best)) |
+| **4. Length Comparison**| $O(N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Hash_Length_Comparison(Pythonic_Best)) |
 | **5. Freq Counter** | $O(N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0217_Contains_Duplicate\Frequency_Counter) |
 
 ---

@@ -11,9 +11,9 @@
 ## 📂 Quick Access
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
-| **1. Brute Force** | $O(N^2)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Converging_Pointers\0011_Container_With_Most_Water\Brute_Force\Brute_Force.py) |
-| **2. Two Pointers** | $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Converging_Pointers\0011_Container_With_Most_Water\Converging_Pointers\Converging_Pointers.py) |
-| **3. Optimized Pointers** | $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Converging_Pointers\0011_Container_With_Most_Water\Optimized_Pointers(Best)\Optimized_Pointers.py) |
+| **1. Brute Force** | $O(N^2)$ | $O(1)$ | [📄 View Solution](./Brute_Force/Brute_Force.py) |
+| **2. Two Pointers** | $O(N)$ | $O(1)$ | [📄 View Solution](./Converging_Pointers/Converging_Pointers.py) |
+| **3. Optimized Pointers** | $O(N)$ | $O(1)$ | [📄 View Solution](./Optimized_Pointers(Best)/Optimized_Pointers.py) |
 
 ---
 
@@ -49,7 +49,7 @@ The most intuitive method. We simply check every possible pair of lines to see w
 
 + Complexity:
 
-    - Time:$O(N)$ — We traverse the array at most once.
+    - Time: $O(N^2)$ — We traverse the array at most once.
     - Space: $O(1)$ — Only constant extra variables used.
 + Verdict: Optimal. The standard interview solution
 
@@ -69,7 +69,7 @@ A slight optimization on the standard approach to skip redundant calculations.
 + Logic:
 1. Same setup as Standard Two Pointers.
 2. When moving a pointer (e.g., left), record the current height.
-3. Skip: Continue movi20ng left forward as long as height[left] is less than or equal to the previous recorded height.
+3. Skip: Continue moving left forward as long as height[left] is less than or equal to the previous recorded height.
     - Reasoning: Since width decreases, any line shorter than the one we just discarded cannot possibly produce a larger area.
 + Complexity:
     + Time: $O(N)$ — Still linear, but fewer area calculations in practice.
@@ -77,12 +77,11 @@ A slight optimization on the standard approach to skip redundant calculations.
 ## 📊 Efficiency Graph
 The graph below compares the quadratic growth of Brute Force vs the linear efficiency of Two Pointers.
 <br>
-![Efficiency Graph.Check assets](Array_and_Hashmap\Converging_Pointers\0011_Container_With_Most_Water\assets\output.png)
+![Efficiency Graph](./assets/output.png)
 
 ## LeetCode Submission Results
 <br>
-![Submission Results.Check assets](Array_and_Hashmap\Converging_Pointers\0011_Container_With_Most_Water\assets\Submission_Results.png)
-
+![Submission Results](./assets/Submission_Results.png)
 📂 Project Structure
 
 ```text
@@ -90,20 +89,20 @@ The graph below compares the quadratic growth of Brute Force vs the linear effic
 │   └── Two_Pointers/
 |           |0011_Container_With_Most_Water/
 │           ├── assets/
-│           │   ├── efficiency_graph.png       # Visualization of Time Complexity
-│           │   └── Submission_Results.png     # Acceptance Rank
+│           │   ├── efficiency_graph.png              # Visualization of Time Complexity
+│           │   └── Submission_Results.png            # Acceptance Rank
 │           │
 │           ├── Brute_Force/
-│           │   └── Brute_Force.py             # Naive Approach (O(N^2))
-│           │   └── Brute_Force.ipynb          # Reference Jupyter Notebook
+│           │   └── Brute_Force.py                    # Naive Approach (O(N^2))
+│           │   └── Brute_Force.ipynb                 # Reference Jupyter Notebook
 │           │
 │           ├── Two_Pointers(Best)/
-│           │   └── Two_Pointers.py            # Standard Optimal Approach (O(N))
-│           │   └── Two_Pointers.ipynb         # Reference Jupyter Notebook
+│           │   └── Converging_Pointers.py            # Standard Optimal Approach (O(N))
+│           │   └── Converging_Pointers.ipynb         # Reference Jupyter Notebook
 │           │
 │           ├── Optimized_Two_Pointers/
-│           │   └── Optimized_Two_Pointers.py  # Skipping Logic (O(N))
-│           │   └── Optimized_Two_Pointers.ipynb
+│           │   └── Optimized_Pointers.py             # Skipping Logic (O(N))
+│           │   └── Optimized_Pointers.ipynb          # Reference Jupyter Notebook
 │           │
-│           └── README.md                      # Problem Documentation & Analysis
+│           └── README.md                             # Problem Documentation & Analysis
 ```

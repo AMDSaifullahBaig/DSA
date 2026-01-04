@@ -11,10 +11,10 @@
 ## 📂 Quick Access
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
-| **1. Sorting (Brute Force)** | $O(N \log N)$ | $O(N)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Brute_Force) |
-| **2. Hash Map** | $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Hash_Map(Best)) |
-| **3. Fixed Size Array** | $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Fixed_Sized_Array) |
-| **4. Pythonic Counter**| $O(N)$ | $O(1)$ | [📄 View Solution](Array_and_Hashmap\Hashing\0242_Valid_Anagram\Frequency_Counter(Pythonic_Best)) |
+| **1. Sorting (Brute Force)** | $O(N \log N)$ | $O(N)$ | [📄 View Solution](./Brute_Force/Brute_Force.py) |
+| **2. Hash Map** | $O(N)$ | $O(1)$ | [📄 View Solution](./Hash_Map(Best)/Hash_Map.py) |
+| **3. Fixed Size Array** | $O(N)$ | $O(1)$ | [📄 View Solution](./Fixed_Sized_Array/Fixed_Sized_array.py) |
+| **4. Frequency Counter**| $O(N)$ | $O(1)$ | [📄 View Solution](./Frequency_Counter(Pythonic_Best)/Frequency_Counter.py) |
 
 ---
 
@@ -147,8 +147,8 @@ DSA/
 │           │   └── Hash_Map.ipynb                                # Reference Jupyter Notebook
 │           │
 │           ├── Fixed_Size_Array/
-│           │   └── Fixed_Size_Array.py                           # Optimized Approach (O(N))
-│           │   └── Fixed_Size_Array.ipynb                        # Reference Jupyter Notebook
+│           │   └── Fixed_Sized_Array.py                          # Optimized Approach (O(N))
+│           │   └── Fixed_Sized_Array.ipynb                       # Reference Jupyter Notebook
 │           │
 │           ├── Pythonic_Counter/
 │           │   └── Pythonic_Counter.py                           # Concise Approach (O(N))
