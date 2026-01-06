@@ -20,7 +20,8 @@ For every problem, I implement multiple approaches—from the naive Brute Force 
 | 0217 | Contains Duplicate | 🟢 Easy | Array, Hash Map | [View Solution](./Array_and_Hashmap/Hashing/0217_Contains_Duplicate/Hashing(Best)/Hashing.py) |
 | 0242 | Valid Anagram | 🟢 Easy | String, Hash Map | [View Solution](./Array_and_Hashmap/Hashing/0242_Valid_Anagram/Hash_Map(Best)/Hash_Map.py) |
 | 0011 | Container With Most Water | 🟡 Medium | Array, Two Pointers | [View Solution](./Array_and_Hashmap/Converging_Pointers/0011_Container_With_Most_Water/Optimized_Pointers(Best)/Optimized_Pointers.py) |
-
+| 0042 | Trapping Rain Water | 🔴 Hard | Array, Two Pointers | [View Solution](./Array_and_Hashmap/Converging_Pointers/0042_Trapping_Rain_Water/Converging_Pointers(Best)/Converging_Pointers.py) |
+| 0283 | Move Zeroes | 🟢 Easy | Array, Two Pointers | [View Solution](./Array_and_Hashmap/Slow_and_Fast_Pointers/0283_Move_Zeroes/Fast_and_Slow_Pointers(Best)/Fast_and_Slow_Pointers.py) |
 
 ## 📂 Repository Structure
 My solutions are organized by **Topic then Pattern** (e.g., Array, Linked List) rather than just numerical order. This helps in spotting patterns and learning specific data structures deeply.
