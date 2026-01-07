@@ -23,13 +23,10 @@ Description:
 """
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        i, j = 0, 0
+        i=0
         if not s:
             return True
-        while i<len(t):
-            if i<len(s) and s[i]==t[j]:
+        for j in t:
+            if i<len(s) and s[i]==j:
                 i+=1
-            if i==len(s):
-                return True
-            j+=1
         return i==len(s)
