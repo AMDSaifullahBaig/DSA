@@ -12,8 +12,8 @@
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
 | **1. Brute Force** | $O(N^2)$ | $O(1)$ | [📄 View Solution](./Brute_Force.py) |
-| **2. Divide & Conquer** | $O(N \log N)$ | $O(\log N)$ | [📄 View Solution](./Divide_And_Conquer.py) |
-| **3. Kadane's Algo** | $O(N)$ | $O(1)$ | [📄 View Solution](./Kadanes_Algorithm.py) |
+| **2. Divide & Conquer** | $O(N \log N)$ | $O(\log N)$ | [📄 View Solution](./Divide_and_Conquer) |
+| **3. Kadane's Algo** | $O(N)$ | $O(1)$ | [📄 View Solution](./Kadane's_Approach(Best)) |
 | **4. Prefix Sum** | $O(N)$ | $O(1)$ | [📄 View Solution](./Prefix_Sum.py) |
 
 <br>

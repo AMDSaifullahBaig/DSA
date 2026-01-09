@@ -11,7 +11,7 @@
 ## 📂 Quick Access
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
-| **1. Two Pointers** | $O(T)$ | $O(1)$ | [📄 View Solution](./Two_Pointers/Two_Pointers.py) |
+| **1. Two Pointers** | $O(T)$ | $O(1)$ | [📄 View Solution](./Fast_and_Slow_Pointers/Fast_and_Slow_Pointers.py) |
 | **2. Binary Search** | $O(S \cdot \log T)$ | $O(T)$ | [📄 View Solution](./Binary_Search/Binary_Search.py) |
 
 > **Note:** $T$ is the length of the target string `t`, and $S$ is the length of the source string `s`.

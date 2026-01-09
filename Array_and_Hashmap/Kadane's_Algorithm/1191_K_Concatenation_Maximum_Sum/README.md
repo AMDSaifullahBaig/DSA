@@ -11,7 +11,7 @@
 ## 📂 Quick Access
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
-| **1. Simulation** | $O(N)$ | $O(N)$ | [📄 View Solution](./Brute_Force) |
+| **1. Simulation** | $O(N)$ | $O(N)$ | [📄 View Solution](./Brute_Force.py) |
 | **2. Optimal Math** | $O(N)$ | $O(1)$ | [📄 View Solution](./Kadane_Algorithm_Optimised_2(Best).py) |
 
 <br>

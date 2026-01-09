@@ -22,7 +22,9 @@ For every problem, I implement multiple approaches—from the naive Brute Force 
 | 0011 | Container With Most Water | 🟡 Medium | Array, Two Pointers | [View Solution](./Array_and_Hashmap/Converging_Pointers/0011_Container_With_Most_Water/Optimized_Pointers(Best)/Optimized_Pointers.py) |
 | 0042 | Trapping Rain Water | 🔴 Hard | Array, Two Pointers | [View Solution](./Array_and_Hashmap/Converging_Pointers/0042_Trapping_Rain_Water/Converging_Pointers(Best)/Converging_Pointers.py) |
 | 0283 | Move Zeroes | 🟢 Easy | Array, Two Pointers | [View Solution](./Array_and_Hashmap/Slow_and_Fast_Pointers/0283_Move_Zeroes/Fast_and_Slow_Pointers(Best)/Fast_and_Slow_Pointers.py) |
-
+| 0202 | Happy Number | 🟢 Easy | Hash Table, Math, Two Pointers | [View Solution](Array_and_Hashmap\Fast_and_Slow_Pointers\0202_Happy_Number\Math_Optimization\Math_Optimization.py) |
+| 0053 | Maximum Subarray | 🟡 Medium | Array, Divide and Conquer, DP | [View Solution](Array_and_Hashmap\Kadane's_Algorithm\0053_Maximum_Subarray\Kadane's_Approach(Best).py) |
+| 1191 | K-Concatenation Maximum Sum | 🟡 Medium | Array, Dynamic Programming | [View Solution](Array_and_Hashmap\Kadane's_Algorithm\1191_K_Concatenation_Maximum_Sum\Kadane_Algorithm_Optimised_2(Best).py) |
 ## 📂 Repository Structure
 My solutions are organized by **Topic then Pattern** (e.g., Array, Linked List) rather than just numerical order. This helps in spotting patterns and learning specific data structures deeply.
 

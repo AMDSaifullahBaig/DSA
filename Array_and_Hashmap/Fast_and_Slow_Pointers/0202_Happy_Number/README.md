@@ -11,9 +11,9 @@
 ## 📂 Quick Access
 | Approach | Time Complexity | Space Complexity | Code Link |
 | :--- | :--- | :--- | :--- |
-| **1. Hash Set** | $O(\log N)$ | $O(\log N)$ | [📄 View Solution](./Hash_Set/Hash_Set.py) |
-| **2. Fast & Slow Pointers** | $O(\log N)$ | $O(1)$ | [📄 View Solution](./Fast_Slow_Pointers/Fast_Slow_Pointers.py) |
-| **3. Math (Rule 4)**| $O(\log N)$ | $O(1)$ | [📄 View Solution](Math_Optimization/Math_Optimization.py) |
+| **1. Hash Set** | $O(\log N)$ | $O(log N)$ | [📄 View Solution](./Hash_Set/Hash_Set.py) |
+| **2. Fast & Slow Pointers** | $O(log N)$ | $O(1)$ | [📄 View Solution](./Fast_and_Slow_Pointers/Fast_and_Slow_Pointers.py) |
+| **3. Math (Rule 4)**| $O(log N)$ | $O(1)$ | [📄 View Solution](Math_Optimization/Math_Optimization.py) |
 
 ---
 
