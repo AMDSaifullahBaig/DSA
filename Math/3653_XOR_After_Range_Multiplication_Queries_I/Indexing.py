@@ -1,0 +1,9 @@
+class Solution:
+    def xorAfterQueries(self, nums: List[int], queries: List[List[int]]) -> int:
+        for l,r,k,v in queries:
+        	for i in range(l,r+1,k):
+        		nums[i]=(nums[i]*v)%(10**9+7)
+        result=0
+        for i in nums:
+            result^=i
+        return result
