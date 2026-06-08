@@ -1,8 +1,4 @@
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
-        def traverse(n):
-            if not n:return 0
-            l=traverse(n.left)
-            r=traverse(n.right)
-            return l+r
-        return traverse(root)
+        if not root:return 0
+        return 1+self.countNodes(root.left)+self.countNodes(root.right)
