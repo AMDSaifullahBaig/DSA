@@ -4,7 +4,7 @@ class Solution:
         hash=Counter(nums)
         for i in hash:
             if i==1:
-                total=hash[i]D if hash[i]&1 else hash[i]-1
+                total=hash[i] if hash[i]&1 else hash[i]-1
             else:
                 total=0
                 curr=i
