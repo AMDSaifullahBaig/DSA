@@ -14,8 +14,3 @@ class Solution:
         if start<=upper:
             result.append([start,upper])
         return result
-a=Solution()
-nums = [3,9,7]
-lower = 1
-upper = 12
-print(a.findDisappearedNumbers(nums,lower,upper))
